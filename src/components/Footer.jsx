@@ -12,18 +12,18 @@ export default function Footer() {
         <div className="sm:order-1 lg:mt-4  ">
           <div className="">
             <img className="p-4" src="logo-dark. footer.png" />
-            <p className="p-5 text-[18px]">
+            <p className="p-5 text-[18px] sm:text-[18px] ">
               All rights reserved <span className="font-bold">Codeefly</span> ©
               2024
             </p>
           </div>
         </div>
-        <div className="sm:order-3 lg:order-2  ">
-          <div className="p-5 text-2xl sm:ml-[-40px]  ">News Letter</div>
-          <div className="p-2 ml-5 mt-2 border border-solid border-black rounded w-80 relative sm:w-[560px]  sm:ml-[-20px] lg:w-[260px] ">
+        <div className="sm:order-3 lg:order-2   ">
+          <div className="p-5 text-2xl sm:ml-[-40px]   ">News Letter</div>
+          <div className="p-2 ml-5 mt-2 border border-solid border-black rounded w-80 md:w-[535px]  relative sm:w-[560px]  sm:ml-[-20px] lg:w-[260px] ">
             <input
               type="text"
-              className="w-[100%] bg-[#F4FAF9] h-8"
+              className="w-[100%]  bg-[#F4FAF9] h-8"
               readOnly
               placeholder="submit your email"
               border
