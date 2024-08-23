@@ -4,7 +4,7 @@ import { RxCross2 } from "react-icons/rx";
 export default function Pricing() {
   return (
     <div className="bg-[#F1F6FB] font-sans  ">
-      <div className="text-center p-14">
+      <div className="text-center  pl-5 pr-5 pb-5 p-16">
         <div className="text-[#80DB66] tracking-[1px] text-[16px] sm:text-[20px] lg:tracking-[4px]">
           Let’s Start Working
         </div>
