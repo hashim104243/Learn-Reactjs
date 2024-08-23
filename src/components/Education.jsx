@@ -17,7 +17,7 @@ export default function Education() {
 
         <div className="lg:mt-16">
           <div className="flex space-x-3 mt-6 sm:space-x-6  ">
-            <div className="  bg-[#80DB66] pb-9 pl-3 pr-3 pt-3 h-12  rounded-[4px] mt-2 md:pl-4 md:pr-4 md:pt-3 md:pb-[52px] ">
+            <div className="  bg-[#80DB66] pb-9 pl-3 pr-3 pt-3 h-12  rounded-[8px] mt-2 md:pl-4 md:pr-4 md:pt-3 md:pb-[52px] ">
               <SlGraduation className="text-white   text-2xl md:text-4xl " />
             </div>
             <div className="">
@@ -28,7 +28,7 @@ export default function Education() {
                 <span className="text-[#4d4d5c] text-xl font-bold">
                   New York University
                 </span>
-                <span className="text-[#9b9db1] ">( 2012 - 2016 )</span>
+                <span className="text-[#9b9db1] ">&nbsp;( 2012 - 2016 )</span>
               </div>
               <div className="text-[#4d4d5c] text-[19px] md:text-[21px]">
                 Ludantium totam rem aperia meaque ipsa quae ab illo inven tore
@@ -38,7 +38,7 @@ export default function Education() {
           </div>
 
           <div className="flex space-x-3 mt-6 sm:space-x-6 ">
-            <div className="  bg-[#80DB66] pb-9 pl-3 pr-3 pt-3 h-12  rounded-[4px] mt-2 md:pl-4 md:pr-4 md:pt-3 md:pb-[52px] ">
+            <div className="  bg-[#80DB66] pb-9 pl-3 pr-3 pt-3 h-12  rounded-[8px] mt-2 md:pl-4 md:pr-4 md:pt-3 md:pb-[52px] ">
               <SlGraduation className="text-white   text-2xl md:text-4xl " />
             </div>
             <div>
@@ -59,7 +59,7 @@ export default function Education() {
           </div>
 
           <div className="flex space-x-3 mt-6 sm:space-x-6 ">
-            <div className="  bg-[#80DB66] pb-9 pl-3 pr-3 pt-3 h-12  rounded-[4px] mt-2  md:pl-4 md:pr-4 md:pt-3 md:pb-[52px]">
+            <div className="  bg-[#80DB66] pb-9 pl-3 pr-3 pt-3 h-12  rounded-[8px] mt-2  md:pl-4 md:pr-4 md:pt-3 md:pb-[52px]">
               <SlGraduation className="text-white   text-2xl md:text-4xl " />
             </div>
             <div>
