@@ -18,7 +18,7 @@ export default function FunFacts() {
           </div>
         </div>
 
-        <div className="  sm:grid sm:grid-cols-2 mt-16 lg:gap-x-10 xl:gap-x-7 2xl:gap-x-3 2xl:gap-y-3 md:gap-y-2">
+        <div className=" grid gap-y-4 sm:grid sm:grid-cols-2 mt-16 lg:gap-x-10 xl:gap-x-7 2xl:gap-x-3 2xl:gap-y-3 md:gap-y-2">
           <div className="sm:w-[240px] md:w-[300px] lg:w-[210px] 2xl:w-[300px]  xl:w-[270px] flex justify-center items-center gap-x-4 border-[1px] border-[#bcc7d3] rounded-lg p-7 lg:p-5 lg:m-2  ml-[15px] mr-[15px]  m-2   ">
             <div className="text-[#80DB66] text-[62px] font-bold">12</div>
             <div className="">
