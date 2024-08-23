@@ -16,7 +16,7 @@ export default function Pricing() {
       <div className="flex flex-wrap md:flex-wrap md:p-4  ">
         <div className=" bg-white m-4 mx-auto  sm:w-[400px] sm:mx-auto rounded-[11px]  md:w-[340px] lg:w-[300px] xl:w-[380px]">
           <div className="">
-            <div className="text-4xl p-10 ">Project Basis</div>
+            <div className="text-3xl p-10 ">Hourly</div>
             <hr className="border-2 ml-[40px] w-[260px] border-[#bcc7d3]  lg:w-[230px]" />
             <div className="pt-10 pr-10 pl-10 pb-4 space-x-4">
               <span className="text-6xl text-[#80DB66]">$99</span>
@@ -66,7 +66,7 @@ export default function Pricing() {
 
         <div className=" bg-white m-4 mx-auto  sm:w-[400px] sm:mx-auto  rounded-[11px] md:w-[340px] lg:w-[300px] xl:w-[380px]">
           <div className="">
-            <div className="text-4xl p-10 ">Project Basis</div>
+            <div className="text-3xl p-10 ">Project Basis</div>
             <hr className="border-2 ml-[40px] w-[260px] border-[#bcc7d3]  lg:w-[230px]" />
             <div className="pt-10 pr-10 pl-10 pb-4 space-x-4">
               <span className="text-6xl text-[#80DB66]">$69</span>
@@ -115,7 +115,7 @@ export default function Pricing() {
         </div>
         <div className=" bg-white m-4 mx-auto  sm:w-[400px] sm:mx-auto rounded-[11px] lg:w-[300px] xl:w-[380px]">
           <div className="">
-            <div className="text-4xl p-10 ">Monthly</div>
+            <div className="text-3xl p-10 ">Monthly</div>
             <hr className="border-2 ml-[40px] w-[260px] border-[#bcc7d3]  lg:w-[230px]" />
             <div className="pt-10 pr-10 pl-10 pb-4 space-x-4">
               <span className="text-6xl text-[#80DB66]">$39</span>
