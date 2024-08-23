@@ -2,15 +2,15 @@ import React from "react";
 
 export default function AboutMe() {
   return (
-    <div className="bg-[#EEF4FA]   lg:h-[830px] lg:flex font-sans pb-16    ">
+    <div className="bg-[#EEF4FA]   lg:h-[890px] lg:flex font-sans pb-[2px]   pt-16  ">
       <div
         className="p-10 relative sm:mx-auto sm:w-[30rem] 
-      lg:w-[35rem] lg:ml-8 mt-14 "
+      lg:w-[35rem] lg:ml-8  "
       >
         <div className="w-24 h-24 border-[#80DB66] border-4 absolute top-4 right-4 z-[0] "></div>
         <img src="about-img.jpg  " className="relative z-10" />
         <div className="w-16 h-[76px] bg-[#80DB66] absolute top-28   left-0 z-20"></div>
-        <div className="w-12 h-16 bg-[#80DB66] absolute  bottom-[4px] left-[235px] z-20 sm:left-[340px]  lg:bottom-[170px] xl:bottom-[140px]"></div>
+        <div className="w-12 h-16 bg-[#80DB66] absolute  bottom-[4px] left-[235px] z-20 sm:left-[340px]  lg:bottom-[190px] xl:bottom-[160px]"></div>
       </div>
 
       <div className=" lg:w-[30rem] xl:w-[40rem] lg:mt-[40px]  ">
