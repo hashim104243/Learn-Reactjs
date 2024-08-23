@@ -38,16 +38,16 @@ export default function HeaderContent() {
         />
       </div>
       <div className="hidden  md:block absolute top-[120px] right-6  text-white w-16  space-y-3">
-        <div className="text-xl border border-white flex justify-center items-center p-4 rounded hover:bg-[#80DB66] hover:text-white ">
+        <div className="text-xl border border-white flex justify-center items-center p-4 rounded hover:bg-[#80DB66] hover:text-white  cursor-pointer">
           <FaFacebookF />
         </div>
-        <div className="text-xl  lg:text-[18px] border flex justify-center items-center p-3  rounded hover:bg-[#80DB66] hover:text-white">
+        <div className="text-xl  lg:text-[18px] border flex justify-center items-center p-3  rounded hover:bg-[#80DB66] hover:text-white cursor-pointer">
           <FaTwitter />
         </div>
-        <div className="text-xl lg:text-[18px] border flex justify-center items-center p-3  rounded hover:bg-[#80DB66] hover:text-white">
+        <div className="text-xl lg:text-[18px] border flex justify-center items-center p-3  rounded hover:bg-[#80DB66] hover:text-white cursor-pointer">
           <FaLinkedinIn />
         </div>
-        <div className="text-xl lg:text-[18px] border flex justify-center items-center p-3  rounded hover:bg-[#80DB66] hover:text-white">
+        <div className="text-xl lg:text-[18px] border flex justify-center items-center p-3  rounded hover:bg-[#80DB66] hover:text-white cursor-pointer">
           <FaYoutube />
         </div>
       </div>

@@ -36,16 +36,16 @@ export default function Footer() {
         <div className="sm:order-2   lg:order-3  ">
           <div className="p-5 sm:pl-0   text-2xl ">Follow Me</div>
           <div className="flex sm:ml-0  ml-5 space-x-2  ">
-            <div className="text-xl text-white bg-[#1877f2] rounded-full p-3 ">
+            <div className="text-xl text-white bg-[#1877f2] rounded-full p-3 cursor-pointer">
               <FaFacebookF />
             </div>
-            <div className="text-xl text-white bg-[#1877f2] rounded-full p-3  ">
+            <div className="text-xl text-white bg-[#1877f2] rounded-full p-3 cursor-pointer ">
               <FaTwitter />
             </div>
-            <div className="text-xl text-white bg-[#1877f2] rounded-full p-3 ">
+            <div className="text-xl text-white bg-[#1877f2] rounded-full p-3 cursor-pointer">
               <FaLinkedinIn />
             </div>
-            <div className="text-xl text-white bg-[#1877f2] rounded-full p-3 ">
+            <div className="text-xl text-white bg-[#1877f2] rounded-full p-3 cursor-pointer">
               <FaInstagram />
             </div>
           </div>

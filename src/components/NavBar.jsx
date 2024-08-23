@@ -10,17 +10,29 @@ export default function NavBar() {
       </div>
 
       <div className="nav-left flex justify-center items-center text-white space-x-3 ml-2">
-        <div className="list  text-white hidden  lg:block ">
+        <div className="list   text-white hidden  lg:block ">
           <ul className="flex space-x-9 text-2xl mr-7">
-            <li className="text-[19px] font-bold">Home</li>
-            <li className="text-[19px] font-bold">About</li>
-            <li className="text-[19px] font-bold">Works</li>
-            <li className="text-[19px] font-bold">Services</li>
-            <li className="text-[19px] font-bold">Contact</li>
-            <li className="text-[19px] font-bold">Blog</li>
+            <li className="text-[19px] font-medium cursor-pointer hover:text-[#80DB66]">
+              Home
+            </li>
+            <li className="text-[19px] font-medium cursor-pointer hover:text-[#80DB66]">
+              About
+            </li>
+            <li className="text-[19px] font-medium cursor-pointer hover:text-[#80DB66]">
+              Works
+            </li>
+            <li className="text-[19px] font-medium cursor-pointer hover:text-[#80DB66]">
+              Services
+            </li>
+            <li className="text-[19px] font-medium cursor-pointer hover:text-[#80DB66]">
+              Contact
+            </li>
+            <li className="text-[19px] font-medium cursor-pointer hover:text-[#80DB66]">
+              Blog
+            </li>
           </ul>
         </div>
-        <button className="border border-solid border-[#80DB66] p-3 lg:w-40 lg:text-[16px] font-bold text-xs rounded hover:bg-[#80DB66] hover:text-white ">
+        <button className="border border-solid border-[#80DB66] p-3 lg:w-40 lg:text-[16px] font-medium text-xs rounded hover:bg-[#80DB66] hover:text-white  cursor-pointer">
           DOWNLOAD CV
         </button>
         <div className="text-2xl text-[#80DB66] lg:hidden">
