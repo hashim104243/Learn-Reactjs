@@ -2,7 +2,7 @@ import React from "react";
 
 export default function FunFacts() {
   return (
-    <div className="bg-[#25262F]  font-sans   ">
+    <div className="bg-[#25262F]  font-sans pb-10   ">
       <div className=" pt-16 pl-5 pr-5 pb-5 sm:p-16 sm:pb-4 lg:grid lg:grid-cols-2 lg:place-content-center lg:place-items-center lg:space-y-[-50px] lg:space-x-[30px] ">
         <div className="lg:mb-14">
           <div className="text-[#80DB66] text-xl lg:text-2xl lg:tracking-[4px] lg:pt-3 lg:pb-3">
@@ -18,36 +18,36 @@ export default function FunFacts() {
           </div>
         </div>
 
-        <div className="sm:grid sm:grid-cols-2     ">
-          <div className=" flex justify-center items-center space-x-4 border-[1px] border-[#bcc7d3] rounded-lg p-7 lg:p-5 lg:m-2  ml-[15px] mr-[15px]  m-2   ">
+        <div className="  sm:grid sm:grid-cols-2 mt-16 lg:gap-x-10 xl:gap-x-7 2xl:gap-x-3 2xl:gap-y-3 md:gap-y-2">
+          <div className="sm:w-[240px] md:w-[300px] lg:w-[210px] 2xl:w-[300px]  xl:w-[270px] flex justify-center items-center gap-x-4 border-[1px] border-[#bcc7d3] rounded-lg p-7 lg:p-5 lg:m-2  ml-[15px] mr-[15px]  m-2   ">
             <div className="text-[#80DB66] text-[62px] font-bold">12</div>
-            <div>
+            <div className="">
               <div className="text-white text-xl">Years of </div>
               <div className="text-white text-xl"> Experience</div>
             </div>
           </div>
 
-          <div className=" flex justify-center items-center space-x-4    border-[1px] border-[#bcc7d3] rounded-lg p-7 lg:p-5 lg:m-2    ml-[15px] mr-[15px] m-2">
-            <div className="text-[#80DB66] text-[62px] font-bold">2k</div>
-            <div>
-              <div className="text-white text-xl">Total </div>
-              <div className="text-white text-xl"> Clients</div>
+          <div className=" sm:w-[240px] md:w-[300px] lg:w-[210px] xl:w-[270px] 2xl:w-[300px]  flex justify-center items-center gap-x-4 border-[1px] border-[#bcc7d3] rounded-lg p-7 lg:p-5 lg:m-2  ml-[15px] mr-[15px]  m-2   ">
+            <div className="text-[#80DB66] text-[62px] font-bold">12</div>
+            <div className="">
+              <div className="text-white text-xl">Years of </div>
+              <div className="text-white text-xl"> Experience</div>
             </div>
           </div>
 
-          <div className=" flex justify-center items-center space-x-4 border-[1px] border-[#bcc7d3] rounded-lg p-7 lg:p-5 lg:m-2  ml-[15px] mr-[15px] m-2">
-            <div className="text-[#80DB66] text-[62px] font-bold">4k</div>
-            <div>
-              <div className="text-white text-xl">Projects </div>
-              <div className="text-white text-xl"> Completed</div>
+          <div className="sm:w-[240px] md:w-[300px] lg:w-[210px] 2xl:w-[300px]  xl:w-[270px] flex justify-center items-center gap-x-4 border-[1px] border-[#bcc7d3] rounded-lg p-7 lg:p-5 lg:m-2  ml-[15px] mr-[15px]  m-2   ">
+            <div className="text-[#80DB66] text-[62px] font-bold">12</div>
+            <div className="">
+              <div className="text-white text-xl">Years of </div>
+              <div className="text-white text-xl"> Experience</div>
             </div>
           </div>
 
-          <div className=" flex justify-center items-center space-x-4 border-[1px] border-[#bcc7d3] rounded-lg p-7 lg:p-5 lg:m-2  ml-[15px] mr-[15px] m-2">
-            <div className="text-[#80DB66] text-[62px] font-bold">30</div>
-            <div>
-              <div className="text-white text-xl">Digital </div>
-              <div className="text-white text-xl"> Products</div>
+          <div className=" sm:w-[240px] md:w-[300px] lg:w-[210px] xl:w-[270px] 2xl:w-[300px]  flex justify-center items-center gap-x-4 border-[1px] border-[#bcc7d3] rounded-lg p-7 lg:p-5 lg:m-2  ml-[15px] mr-[15px]  m-2   ">
+            <div className="text-[#80DB66] text-[62px] font-bold">12</div>
+            <div className="">
+              <div className="text-white text-xl">Years of </div>
+              <div className="text-white text-xl"> Experience</div>
             </div>
           </div>
         </div>
