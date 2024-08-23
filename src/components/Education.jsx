@@ -3,7 +3,7 @@ import { SlGraduation } from "react-icons/sl";
 export default function Education() {
   return (
     <div className=" bg-[#EFFFF3] p-5 sm:p-14 md:p-17 lg:p-10 lg:flex lg:space-x-32   xl:space-x-28  2xl:justify-center 2xl:space-x-28 font-sans  ">
-      <div className="education-left  lg:w-[600px] ">
+      <div className="education-left  lg:w-[600px] text-[#2e2e37] ">
         <div className="text-[#80DB66] text-xl tracking-[2px]  md:tracking-[5px] md:text-2xl ">
           Education
         </div>
@@ -21,11 +21,11 @@ export default function Education() {
               <SlGraduation className="text-white   text-2xl md:text-4xl " />
             </div>
             <div className="">
-              <div className="text-#2e2e37 text-3xl font-bold">
+              <div className="text-#2e2e37 text-3xl font-medium text-[#2e2e37]">
                 Masters in Computer Science
               </div>
               <div className="mt-2 mb-4">
-                <span className="text-[#4d4d5c] text-xl font-bold">
+                <span className=" text-xl font-medium text-[#2e2e37]">
                   New York University
                 </span>
                 <span className="text-[#9b9db1] ">&nbsp;( 2012 - 2016 )</span>
@@ -42,11 +42,11 @@ export default function Education() {
               <SlGraduation className="text-white   text-2xl md:text-4xl " />
             </div>
             <div>
-              <div className="text-#2e2e37 text-3xl font-bold">
+              <div className="text-[#2e2e37] text-3xl font-medium">
                 Bachelor in Computer Engineering
               </div>
               <div className="mt-2 mb-4">
-                <span className="text-[#4d4d5c] text-xl font-bold">
+                <span className="text-[#2e2e37] text-xl font-medium">
                   Dhaka University
                 </span>
                 <span className="text-[#9b9db1] "> ( 2008 - 2011 )</span>
@@ -63,17 +63,16 @@ export default function Education() {
               <SlGraduation className="text-white   text-2xl md:text-4xl " />
             </div>
             <div>
-              <div className="text-#2e2e37 text-3xl font-bold">
+              <div className="text-#2e2e37 text-3xl font-medium">
                 Diploma in Graphic Design
               </div>
               <div className="mt-2 mb-4">
-                <span className="text-[#4d4d5c] text-xl font-bold">
-                  {" "}
-                  Bangla College{" "}
+                <span className="text-[#2e2e37] text-xl font-medium">
+                  Bangla College
                 </span>
                 <span className="text-[#9b9db1] "> ( 2006 - 2008 )</span>
               </div>
-              <div className="text-[#4d4d5c] text-[19px]  md:text-[21px]">
+              <div className="text-[#4D4D5C] text-[19px]  md:text-[21px] ">
                 Ludantium totam rem aperia meaque ipsa quae ab illo inven tore
                 veritatis et quasi architecto beatae vitae.
               </div>
