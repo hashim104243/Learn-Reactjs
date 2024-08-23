@@ -13,8 +13,8 @@ export default function HeaderContent() {
         >
           Hello I’M
         </div>
-        <div className="text-6xl   xl:ml-0 ml-20 lg:text-[8rem]  w-96 ">
-          James Smith
+        <div className="text-6xl   xl:ml-0 ml-20 lg:ml-[100px] lg:text-[7rem]  w-96 ">
+          <span>James</span> <span>Smith</span>
         </div>
         <div className=" text-center lg:flex lg:space-x-6 lg:items-center lg:mt-8 lg:ml-[100px] xl:ml-2">
           <div className="text-sm pt-6 pb-2 lg:pb-0 lg:pt-0 lg:text-2xl  ">
@@ -32,10 +32,7 @@ export default function HeaderContent() {
         </div>
       </div>
       <div className="  mt-16  h-[323px] w-96 lg:w-[21rem] lg:h-[535px] lg:mt-0 lg:mr-20   flex justify-center items-center      ">
-        <img
-          className="lg:w-[100%] lg:h-[100%]  h-[300px]"
-          src="person.png   "
-        />
+        <img className="lg:w-full lg:h-[100%]  h-[300px]" src="person.png   " />
       </div>
       <div className="hidden  md:block absolute top-[120px] right-6  text-white w-16  space-y-3">
         <div className="text-xl border border-white flex justify-center items-center p-4 rounded hover:bg-[#80DB66] hover:text-white  cursor-pointer">
