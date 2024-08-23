@@ -2,10 +2,10 @@ import React from "react";
 
 export default function AboutMe() {
   return (
-    <div className="bg-[#EEF4FA] h-[1300px] lg:h-[800px] lg:flex font-sans   ">
+    <div className="bg-[#EEF4FA]   lg:h-[830px] lg:flex font-sans pb-16    ">
       <div
         className="p-10 relative sm:mx-auto sm:w-[30rem] 
-      lg:w-[35rem] lg:ml-8 "
+      lg:w-[35rem] lg:ml-8 mt-14 "
       >
         <div className="w-24 h-24 border-[#80DB66] border-4 absolute top-4 right-4 z-[0] "></div>
         <img src="about-img.jpg  " className="relative z-10" />
@@ -42,7 +42,7 @@ export default function AboutMe() {
             <div className="ml-4 text-[#212529]">Age</div>
             <div className=" text-[#4d4d5c]">29 Year</div>
           </div>
-          <div className="flex text-xl p-1 space-x-[52px] items-center">
+          <div className="flex text-xl p-1 space-x-[45px] items-center">
             <div className="ml-4 text-[#212529]">Occupation</div>
             <div className=" text-[#4d4d5c]">System Engineer</div>
           </div>
@@ -50,18 +50,18 @@ export default function AboutMe() {
             <div className="ml-4 text-[#212529]">Phone</div>
             <div className=" text-[#4d4d5c]">+123 456 7890</div>
           </div>
-          <div className="flex text-xl p-1 space-x-[95px] items-center">
+          <div className="flex text-xl p-1 space-x-[100px] items-center">
             <div className="ml-4 text-[#212529]">Email</div>
             <div className=" text-[#4d4d5c]">hello@thames.com</div>
           </div>
-          <div className="flex text-xl p-1 space-x-[52px] items-center">
+          <div className="flex text-xl p-1 space-x-[55px] items-center">
             <div className="ml-4 text-[#212529]">Nationality</div>
             <div className=" text-[#4d4d5c]">Bangladeshi</div>
           </div>
           <hr className="border-[0.11 ] border-[#bcc7d3] mt-6 mb-6 w-80 ml-[20px] sm:w-[480px]   md:w-[630px] lg:ml-[20px] lg:w-[90%] xl:w-[590px]" />
         </div>
 
-        <div className="sm:flex sm:justify-around ">
+        <div className="sm:flex sm:justify-around  ">
           <div className="pl-4">
             <img src="signature.png" />
           </div>
