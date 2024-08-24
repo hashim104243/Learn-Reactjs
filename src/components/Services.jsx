@@ -8,7 +8,7 @@ export default function Services() {
         <div className="text-white font-medium text-4xl p-6">What I offer</div>
       </div>
 
-      <div className="md:grid md:grid-cols-2 mx-auto gap-x-[20px]  place-items-center md:gap-y-[12px] pb-10">
+      <div className="md:grid md:grid-cols-2 mx-auto gap-x-[20px]  place-items-center md:gap-y-[12px] pb-10 2xl:gap-x-16">
         <div className="bg-white rounded-[10px] p-7 mx-auto    mt-7   md:pb-[60px] md:pt-[60px] lg:p-8 lg:flex  2xl:ml-[22px]  md:w-full ">
           <div className="p-3    lg:w-28 ">
             <img src="ser-icon1.png" className="w-12 md:w-[73px]      " />
