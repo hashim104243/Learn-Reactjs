@@ -8,7 +8,7 @@ import { FaInstagram } from "react-icons/fa";
 export default function Footer() {
   return (
     <div>
-      <div className="bg-[#F4FAF9] sm:flex sm:justify-start      sm:flex-wrap sm:space-x-10 sm:p-7   lg:justify-between lg:items-center   md:justify-center font-sans border-8 border-indigo-600 pb-8  ">
+      <div className="bg-[#F4FAF9] sm:flex sm:justify-start      sm:flex-wrap sm:space-x-10 sm:p-7   lg:justify-between lg:items-center   md:justify-center font-sans   ">
         <div className="sm:order-1 lg:mt-4  ">
           <div className="">
             <img className="p-4" src="logo-dark. footer.png" />
