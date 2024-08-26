@@ -59,8 +59,8 @@ export default function App() {
 // image setting done
 // container use karna armian ma rakny ke liye jb bari screen kry to sary center ma rhain done
 //
-// link buttin bnana ha
-// semantic tags
-// light house extension
+// link buttin bnana ha done
+// semantic tags done
 // .map
+// light house extension
 // nova dev solution website code ower view
