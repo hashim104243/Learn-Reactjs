@@ -3,7 +3,7 @@ import React from "react";
 export default function HeaderSkillsSection() {
   return (
     <div
-      className=" bg-[#E2ECF6] h-auto flex flex-col
+      className="  bg-[#E2ECF6] h-auto flex flex-col
      md:flex-row md:flex-wrap md:justify-center md:gap-x-6
     pb-14   items-center lg:flex-row lg:p-10 lg:pt-24 lg:pb-24 lg:ml-[0px]  lg:justify-center lg:space-x-8 2xl:space-x-10   font-sans  lg:flex-nowrap lg:gap-x-0 "
     >

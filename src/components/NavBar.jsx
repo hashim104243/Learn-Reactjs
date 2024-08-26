@@ -2,7 +2,7 @@ import React from "react";
 import { HiBars3 } from "react-icons/hi2";
 export default function NavBar() {
   return (
-    <nav className="flex items-center p-2   justify-between w-full  fixed top-0    bg-[#292522]  lg:pt-7 z-40 font-sans   ">
+    <nav className="  flex items-center p-2   justify-between 2xl:justify-around w-full  fixed top-0    bg-[#292522]  lg:pt-7 z-40 font-sans mx-auto  ">
       <div className="nav-right  ">
         <div className="flex justify-start  ">
           <img src="/logo.png" className=" w-[120px] lg:w-52" />

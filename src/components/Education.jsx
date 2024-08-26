@@ -2,7 +2,7 @@ import React from "react";
 import { SlGraduation } from "react-icons/sl";
 export default function Education() {
   return (
-    <div className=" bg-[#EFFFF3] p-5 sm:p-14 md:p-17 lg:p-10 lg:flex lg:space-x-32   xl:space-x-28  2xl:justify-center 2xl:space-x-28 font-sans  ">
+    <div className=" bg-[#EFFFF3] p-5 sm:p-14 md:p-17 lg:p-10 lg:flex lg:space-x-32   xl:space-x-28   2xl:space-x-28 font-sans  2xl:justify-center">
       <div className="education-left  lg:w-[600px] text-[#2e2e37] ">
         <div className="text-[#80DB66] text-xl tracking-[2px]  md:tracking-[5px] md:text-2xl ">
           Education

@@ -53,3 +53,14 @@ export default function App() {
 // Services
 // Pricing plan
 // Footer
+
+// changing
+// nav bar left right se margin
+// image setting done
+// container use karna armian ma rakny ke liye
+// jb bari screen kry to sary center ma rhain
+// link buttin bnana ha
+// semantic tags
+// light house extension
+// .map
+// nova dev solution website code ower view
