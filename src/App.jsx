@@ -57,7 +57,7 @@ export default function App() {
 // changing
 // nav bar left right se margin done
 // image setting done
-// container use karna armian ma rakny ke liye jb bari screen kry to sary center ma rhain
+// container use karna armian ma rakny ke liye jb bari screen kry to sary center ma rhain done
 //
 // link buttin bnana ha
 // semantic tags
