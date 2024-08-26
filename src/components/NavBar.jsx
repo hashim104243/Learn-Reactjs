@@ -2,7 +2,7 @@ import React from "react";
 import { HiBars3 } from "react-icons/hi2";
 export default function NavBar() {
   return (
-    <nav className="  flex items-center p-2   justify-between 2xl:justify-around w-full  fixed top-0    bg-[#292522]  lg:pt-7 z-40 font-sans mx-auto  ">
+    <nav className="  flex items-center p-2   justify-around 2xl:justify-around w-full  fixed top-0    bg-[#292522]  lg:pt-7 z-40 font-sans mx-auto  ">
       <div className="nav-right  ">
         <div className="flex justify-start  ">
           <img src="/logo.png" className=" w-[120px] lg:w-52" />
@@ -35,7 +35,7 @@ export default function NavBar() {
         <button className="border border-solid border-[#80DB66] p-3 lg:w-40 lg:text-[16px] font-medium text-xs rounded hover:bg-[#80DB66] hover:text-white  cursor-pointer">
           DOWNLOAD CV
         </button>
-        <div className="text-2xl text-[#80DB66] lg:hidden">
+        <div className="text-2xl text-[#80DB66] md:text-3xl md:pl-[23px]   lg:hidden">
           <HiBars3 />
         </div>
       </div>

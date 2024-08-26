@@ -5,7 +5,7 @@ import { FaLinkedinIn } from "react-icons/fa6";
 import { FaYoutube } from "react-icons/fa";
 export default function HeaderContent() {
   return (
-    <div className="text-white flex flex-col justify-center items-center relative lg:flex-row lg:justify-around font-sans  ">
+    <div className="text-white flex flex-col justify-center items-center relative lg:flex-row lg:justify-around font-sans container   mx-auto">
       <div className="text-white flex flex-col justify-center items-center mt-9  lg:items-start  xl:ml-5 ">
         <div
           className="text-[18px] tracking-[4px] text-[#84f565]
@@ -34,7 +34,7 @@ export default function HeaderContent() {
       <div className="  mt-16  h-[323px] w-96 lg:w-[26rem] lg:h-[535px] lg:mt-0 lg:mr-20   flex justify-center items-center      ">
         <img className="lg:w-full lg:h-[100%]  h-[300px]" src="person.png   " />
       </div>
-      <div className="hidden  md:block absolute top-[120px] right-6  text-white w-16  space-y-3">
+      <div className="hidden  md:block absolute   text-white w-16  space-y-3 md:top-[60px] md:right-[90px] lg:right-[40px] container ">
         <div className="text-xl border border-white flex justify-center items-center p-4 rounded hover:bg-[#80DB66] hover:text-white  cursor-pointer">
           <FaFacebookF />
         </div>
