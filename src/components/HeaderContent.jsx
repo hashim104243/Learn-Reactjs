@@ -5,7 +5,10 @@ import { FaLinkedinIn } from "react-icons/fa6";
 import { FaYoutube } from "react-icons/fa";
 export default function HeaderContent() {
   return (
-    <div className="text-white flex flex-col justify-center items-center relative lg:flex-row lg:justify-between font-sans container   mx-auto 2xl:pl-[220px] 2xl:pr-[150px]">
+    <div
+      className="text-white flex flex-col justify-center items-center relative lg:flex-row lg:justify-between font-sans container   mx-auto 2xl:pl-[220px] 2xl:pr-[150px]"
+      id="home"
+    >
       <div className="text-white flex flex-col justify-center items-center mt-9  lg:items-start  xl:ml-5 ">
         <div
           className="text-[18px] tracking-[4px] text-[#84f565]

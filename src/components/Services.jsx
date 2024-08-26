@@ -2,7 +2,7 @@ import React from "react";
 // md:gap-x-[80px]  md:gap-y-[15px] lg:gap-x-[90px]   xl:gap-x-[77px] 2xl:ml-[100px]  2xl:gap-x-[0px]
 export default function Services() {
   return (
-    <section className="bg-[#25262F]">
+    <section className="bg-[#25262F] " id="Services">
       <div className="bg-[#25262F] p-3 sm:p-16 font-sans container mx-auto ">
         <div className="flex flex-col items-center pt-12">
           <div className="text-[#80DB66] tracking-[2px] text-xl">Service</div>

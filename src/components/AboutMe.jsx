@@ -2,7 +2,7 @@ import React from "react";
 
 export default function AboutMe() {
   return (
-    <section className="bg-[#EEF4FA]">
+    <section className="bg-[#EEF4FA]" id="About">
       <div className="bg-[#EEF4FA]   lg:h-[890px] lg:flex font-sans pb-[2px]   pt-16 container mx-auto  ">
         <div className="p-10 relative mx-auto flex justify-center lg:ml-8 container ">
           <div className="w-24 h-24 border-[#80DB66] border-4 absolute top-4 right-4 z-[0] md:right-28 lg:right-0 2xl:right-12 "></div>
@@ -11,7 +11,7 @@ export default function AboutMe() {
           <div className="w-12 h-16 bg-[#80DB66] absolute  bottom-[4px] left-[235px] z-20 sm:left-[430px] md:left-[490px] lg:left-[350px]  2xl:left-[530px]   lg:bottom-[7px]  xl:bottom-[0px] 2xl:bottom-[9px] "></div>
         </div>
 
-        <div className=" container lg:mt-[40px]  ">
+        <div className=" container lg:mt-[40px]  " id="home">
           <div className="sm:ml-[70px] lg:ml-[0px] ">
             <div className="text-[#80DB66] text-[16px] pl-4 sm:text-xl ">
               ABOUT ME

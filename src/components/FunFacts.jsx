@@ -2,7 +2,7 @@ import React from "react";
 
 export default function FunFacts() {
   return (
-    <section className="bg-[#25262F]">
+    <section className="bg-[#25262F]" id="Fun Facts">
       <div className="bg-[#25262F]  font-sans pb-6  mt-0 container mx-auto 2xl:pl-[80px] 2xl:pr-[50px]">
         <div className=" pt-16 pl-5 pr-5 pb-5 sm:p-16 sm:pb-4 lg:grid lg:grid-cols-2 lg:place-content-center lg:place-items-center lg:space-y-[-50px] lg:space-x-[30px] ">
           <div className="lg:mb-14">

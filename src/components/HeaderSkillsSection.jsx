@@ -6,6 +6,7 @@ export default function HeaderSkillsSection() {
       className="  bg-[#E2ECF6] h-auto flex flex-col
      md:flex-row md:flex-wrap md:justify-center md:gap-x-6
     pb-14   items-center lg:flex-row lg:p-10 lg:pt-24 lg:pb-24 lg:ml-[0px]  lg:justify-center lg:space-x-8 2xl:space-x-10   font-sans  lg:flex-nowrap lg:gap-x-0 "
+      id="Works"
     >
       <div className="bg-white w-80 h-[320px] mt-14  rounded-xl [10px] pt-10 pl-12 pr-[40px]  text-left sm:w-[390px] lg:w-[250px] lg:pl-[22px] lg:pr-4 lg:pt-5 lg:h-[310px] lg:mt-[-50px] xl:w-[280px]  xl:h-[365px] xl:pt-10 xl:pl-11 md:w-[350px] ">
         <div>
