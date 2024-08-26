@@ -7,8 +7,8 @@ import { MdOutlineEmail } from "react-icons/md";
 import { FaInstagram } from "react-icons/fa";
 export default function Footer() {
   return (
-    <div>
-      <div className="bg-[#F4FAF9] sm:flex sm:justify-start      sm:flex-wrap sm:space-x-10 sm:p-7   lg:justify-between lg:items-center   md:justify-center font-sanbs pb-8 ">
+    <section className="bg-[#DEF5EF]">
+      <div className="bg-[#DEF5EF] sm:flex sm:justify-start      sm:flex-wrap sm:space-x-0 sm:p-7   lg:justify-between lg:items-center   md:justify-center font-sanbs pb-8 container mx-auto  sm:pl-[60px] ">
         <div className="sm:order-1 lg:mt-4  ">
           <div className="">
             <img className="p-4" src="logo-dark. footer.png" />
@@ -18,9 +18,9 @@ export default function Footer() {
             </p>
           </div>
         </div>
-        <div className="sm:order-3 lg:order-2   ">
-          <div className="p-5 text-2xl sm:ml-[-40px]   ">News Letter</div>
-          <div className="p-2 ml-5 mt-2 border border-solid border-black rounded w-80 md:w-[535px]  relative sm:w-[560px]  sm:ml-[-20px] lg:w-[260px] ">
+        <div className="sm:order-3 lg:order-2    ">
+          <div className="p-5 text-2xl    ">News Letter</div>
+          <div className="p-2 ml-5 mt-2 border border-solid border-black rounded w-80 md:w-[480px]  relative sm:w-[470px]   lg:w-[260px] ">
             <input
               type="text"
               className="w-[100%]  bg-[#F4FAF9] h-8"
@@ -51,6 +51,6 @@ export default function Footer() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
