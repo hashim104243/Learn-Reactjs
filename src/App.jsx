@@ -55,10 +55,10 @@ export default function App() {
 // Footer
 
 // changing
-// nav bar left right se margin
+// nav bar left right se margin done
 // image setting done
-// container use karna armian ma rakny ke liye
-// jb bari screen kry to sary center ma rhain
+// container use karna armian ma rakny ke liye jb bari screen kry to sary center ma rhain
+//
 // link buttin bnana ha
 // semantic tags
 // light house extension
