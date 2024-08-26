@@ -6,10 +6,10 @@ import { FaYoutube } from "react-icons/fa";
 export default function HeaderContent() {
   return (
     <div
-      className="text-white flex flex-col justify-center items-center relative lg:flex-row lg:justify-between font-sans container   mx-auto 2xl:pl-[220px] 2xl:pr-[150px]"
+      className="text-white flex flex-col justify-center items-center relative lg:flex-row lg:justify-between font-sans lg:pl-[30px] lg:pr-[0px]  container  mx-auto 2xl:pl-[220px] 2xl:pr-[150px]"
       id="home"
     >
-      <div className="text-white flex flex-col justify-center items-center mt-9  lg:items-start  xl:ml-5 ">
+      <div className="text-white flex flex-col justify-center items-center mt-9  lg:items-start  xl:ml-[150px] 2xl:ml-[60px]      ">
         <div
           className="text-[18px] tracking-[4px] text-[#84f565]
            lg:text-3xl  lg:ml-[85px] xl:ml-2"
@@ -34,13 +34,10 @@ export default function HeaderContent() {
           </button>
         </div>
       </div>
-      <div className="  mt-16  h-[323px] w-96 lg:w-[26rem] lg:h-[535px] lg:mt-0 lg:mr-20   flex justify-center items-center      ">
+      <div className="  mt-16  h-[323px] w-96 lg:w-[26rem] lg:h-[535px] lg:mt-0 lg:mr-20   flex justify-center items-center xl:mr-[200px]    2xl:mr-[60px]    ">
         <img className="lg:w-full lg:h-[100%]  h-[300px]" src="person.png   " />
       </div>
-      <div
-        className="hidden  md:block absolute   text-white w-16  space-y-3 md:top-[60px] md:right-[90px] lg:right-0 
-        2xl:right-[160px]      container "
-      >
+      <div className="hidden  md:block absolute   text-white w-16  space-y-3 md:top-[60px] md:right-[90px] lg:right-[30px] 2xl:right-[160px] container xl:right-[90px]  ">
         <div className="text-xl border border-white flex justify-center items-center p-3 rounded hover:bg-[#80DB66] hover:text-white  cursor-pointer">
           <FaFacebookF />
         </div>
