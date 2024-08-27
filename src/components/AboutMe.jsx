@@ -68,7 +68,7 @@ export default function AboutMe() {
               <img src="signature.png" alt="signature Icon" />
             </div>
             <div className="pl-4 pt-8 xl:pt-0 xl:flex xl:justify-center xl:items-center xl:space-x-3">
-              <div className="text-xl xl:text-3xl"> Bruce Wayne </div>
+              <div className="text-xl xl:text-[22px]"> Bruce Wayne </div>
               <div className="text-[#9b9db1] xl:text-[18px]">
                 Software Architect, Google Inc.
               </div>
