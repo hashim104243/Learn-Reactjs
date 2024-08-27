@@ -35,7 +35,7 @@ export default function AboutMe() {
             <hr className="border-[0.11 ] border-[#bcc7d3] pt-4 pb-4 w-80 ml-[20px] sm:w-[480px]   md:w-[630px] lg:ml-[20px] lg:w-[90%]" />
           </div>
 
-          <div className="sm:ml-[70px] lg:ml-[0px] xl:grid xl:grid-cols-2">
+          <div className="sm:ml-[70px] lg:ml-[0px] xl:grid xl:grid-cols-2 xl:gap-x-6">
             <div className="flex text-xl p-1 space-x-24 items-center">
               <div className="ml-4 text-[#212529] ">Name</div>
               <div className=" text-[#4d4d5c]">Jame Smith</div>
