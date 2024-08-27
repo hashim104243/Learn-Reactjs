@@ -15,14 +15,14 @@ export default function Services() {
           {ServicesList.map((items) => {
             return (
               <div
-                className="bg-white rounded-[10px] p-7 mx-auto    mt-7   md:pb-[60px] md:pt-[60px] lg:p-8 lg:flex  2xl:ml-[22px]  md:w-full "
+                className="bg-white rounded-[10px] p-7 mx-auto  mt-7 md:pb-[60px] md:pt-[60px] lg:p-8 lg:flex  2xl:ml-[22px]  md:w-full "
                 key={items.id}
               >
                 <div className="p-3    lg:w-28 ">
                   <img
                     src={items.image}
                     alt={items.alt}
-                    className="w-12 md:w-[73px]      "
+                    className="w-12 md:w-[73px]"
                   />
                 </div>
                 <div className="lg:w-52 flex-grow ">

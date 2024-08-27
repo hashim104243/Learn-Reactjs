@@ -21,10 +21,7 @@ export default function HeaderSkillsSection() {
           beatae atis et sopno vitae.
         </div>
       </div>
-      <div
-        className="bg-white w-80 h-[320px] mt-[30px] md:mt-[60px] rounded-[10px] pt-10 pl-12 pr-12  text-left sm:w-[390px]  lg:w-[250px] lg:pl-[22px] lg:pr-5 lg:pt-5 lg:h-[310px]
-           xl:w-[280px]  xl:h-[365px] xl:pt-10 xl:pl-11   md:w-[350px]"
-      >
+      <div className="bg-white w-80 h-[320px] mt-[30px] md:mt-[60px] rounded-[10px] pt-10 pl-12 pr-12  text-left sm:w-[390px]  lg:w-[250px] lg:pl-[22px] lg:pr-5 lg:pt-5 lg:h-[310px]xl:w-[280px]  xl:h-[365px] xl:pt-10 xl:pl-11   md:w-[350px]">
         <div>
           <img
             src="intro-ft-icon2.png"
@@ -57,10 +54,7 @@ export default function HeaderSkillsSection() {
           beatae atis et sopno vitae.
         </div>
       </div>
-      <div
-        className="bg-white w-80 h-[320px] mt-[30px]  rounded-[10px] pt-10 pl-12 pr-12  text-left sm:w-[390px]  lg:w-[250px] lg:pl-[22px] lg:pr-5 lg:pt-5 lg:h-[310px]
-         xl:w-[280px]  xl:h-[365px] xl:pt-10 xl:pl-11  md:w-[350px] "
-      >
+      <div className="bg-white w-80 h-[320px] mt-[30px]  rounded-[10px] pt-10 pl-12 pr-12  text-left sm:w-[390px]  lg:w-[250px] lg:pl-[22px] lg:pr-5 lg:pt-5 lg:h-[310px] xl:w-[280px]  xl:h-[365px] xl:pt-10 xl:pl-11  md:w-[350px] ">
         <div>
           <img
             src="intro-ft-icon4.png"
