@@ -1,5 +1,5 @@
 import React from "react";
-
+import { funfactList } from "../Data/FunFactList";
 export default function FunFacts() {
   return (
     <section className="bg-[#25262F]" id="Fun Facts">
@@ -20,40 +20,56 @@ export default function FunFacts() {
           </div>
 
           <div className=" grid gap-y-4 sm:grid sm:grid-cols-2 mt-16  sm:gap-x-4 md:gap-x-3 lg:gap-x-12 xl:gap-x-10 2xl:gap-x-5 ">
-            <div className="  lg:w-[220px] 2xl:w-[300px]  xl:w-[270px] flex justify-center items-center gap-x-3 border-[1px] border-[#bcc7d3] rounded-lg p-7 lg:p-5         ">
-              <div className="text-[#80DB66] text-[62px] font-bold">12</div>
-              <div className="">
-                <div className="text-white text-xl">Years of </div>
-                <div className="text-white text-xl"> Experience</div>
-              </div>
-            </div>
-
-            <div className="   lg:w-[220px] xl:w-[270px] 2xl:w-[300px]  flex justify-center items-center gap-x-3 border-[1px] border-[#bcc7d3] rounded-lg p-7 lg:p-5       ">
-              <div className="text-[#80DB66] text-[62px] font-bold">12</div>
-              <div className="">
-                <div className="text-white text-xl">Years of </div>
-                <div className="text-white text-xl"> Experience</div>
-              </div>
-            </div>
-
-            <div className="  lg:w-[220px] 2xl:w-[300px]  xl:w-[270px] flex justify-center items-center gap-x-3 border-[1px] border-[#bcc7d3] rounded-lg p-7 lg:p-5         ">
-              <div className="text-[#80DB66] text-[62px] font-bold">12</div>
-              <div className="">
-                <div className="text-white text-xl">Years of </div>
-                <div className="text-white text-xl"> Experience</div>
-              </div>
-            </div>
-
-            <div className="   lg:w-[220px] xl:w-[270px] 2xl:w-[300px]  flex justify-center items-center gap-x-3 border-[1px] border-[#bcc7d3] rounded-lg p-7 lg:p-5         ">
-              <div className="text-[#80DB66] text-[62px] font-bold">12</div>
-              <div className="">
-                <div className="text-white text-xl">Years of </div>
-                <div className="text-white text-xl"> Experience</div>
-              </div>
-            </div>
+            {funfactList.map((items) => {
+              return (
+                <div className="  lg:w-[220px] 2xl:w-[300px]  xl:w-[270px] flex justify-center items-center gap-x-3 border-[1px] border-[#bcc7d3] rounded-lg p-7 lg:p-5         ">
+                  <div className="text-[#80DB66] text-[62px] font-bold">
+                    {items.value}
+                  </div>
+                  <div className="">
+                    <div className="text-white text-xl">{items.topContent}</div>
+                    <div className="text-white text-xl">
+                      {items.bottomConteant}
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
           </div>
         </div>
       </div>
     </section>
   );
 }
+
+// <div className="  lg:w-[220px] 2xl:w-[300px]  xl:w-[270px] flex justify-center items-center gap-x-3 border-[1px] border-[#bcc7d3] rounded-lg p-7 lg:p-5         ">
+// <div className="text-[#80DB66] text-[62px] font-bold">12</div>
+// <div className="">
+//   <div className="text-white text-xl">Years of </div>
+//   <div className="text-white text-xl"> Experience</div>
+// </div>
+// </div>
+
+// <div className="   lg:w-[220px] xl:w-[270px] 2xl:w-[300px]  flex justify-center items-center gap-x-3 border-[1px] border-[#bcc7d3] rounded-lg p-7 lg:p-5       ">
+// <div className="text-[#80DB66] text-[62px] font-bold">12</div>
+// <div className="">
+//   <div className="text-white text-xl">Years of </div>
+//   <div className="text-white text-xl"> Experience</div>
+// </div>
+// </div>
+
+// <div className="  lg:w-[220px] 2xl:w-[300px]  xl:w-[270px] flex justify-center items-center gap-x-3 border-[1px] border-[#bcc7d3] rounded-lg p-7 lg:p-5         ">
+// <div className="text-[#80DB66] text-[62px] font-bold">12</div>
+// <div className="">
+//   <div className="text-white text-xl">Years of </div>
+//   <div className="text-white text-xl"> Experience</div>
+// </div>
+// </div>
+
+// <div className="   lg:w-[220px] xl:w-[270px] 2xl:w-[300px]  flex justify-center items-center gap-x-3 border-[1px] border-[#bcc7d3] rounded-lg p-7 lg:p-5         ">
+// <div className="text-[#80DB66] text-[62px] font-bold">12</div>
+// <div className="">
+//   <div className="text-white text-xl">Years of </div>
+//   <div className="text-white text-xl"> Experience</div>
+// </div>
+// </div>
