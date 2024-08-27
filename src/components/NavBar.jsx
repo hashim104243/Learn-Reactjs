@@ -16,7 +16,7 @@ export default function NavBar() {
             {list.map((items) => {
               return (
                 <li
-                  value={items.value}
+                  key={items.id}
                   className="text-[19px] font-medium cursor-pointer hover:text-[#80DB66]"
                 >
                   <a href={items.link}> {items.value}</a>

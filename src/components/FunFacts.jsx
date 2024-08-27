@@ -22,7 +22,10 @@ export default function FunFacts() {
           <div className=" grid gap-y-4 sm:grid sm:grid-cols-2 mt-16  sm:gap-x-4 md:gap-x-3 lg:gap-x-12 xl:gap-x-10 2xl:gap-x-5 ">
             {funfactList.map((items) => {
               return (
-                <div className="  lg:w-[220px] 2xl:w-[300px]  xl:w-[270px] flex justify-center items-center gap-x-3 border-[1px] border-[#bcc7d3] rounded-lg p-7 lg:p-5         ">
+                <div
+                  key={items.id}
+                  className="  lg:w-[220px] 2xl:w-[300px]  xl:w-[270px] flex justify-center items-center gap-x-3 border-[1px] border-[#bcc7d3] rounded-lg p-7 lg:p-5         "
+                >
                   <div className="text-[#80DB66] text-[62px] font-bold">
                     {items.value}
                   </div>
