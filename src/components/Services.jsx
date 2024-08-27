@@ -1,5 +1,5 @@
 import React from "react";
-import { ServicesList } from "./ServicesList";
+import { ServicesList } from "../Data/ServicesList";
 export default function Services() {
   return (
     <section className="bg-[#25262F] " id="Services">
@@ -16,7 +16,11 @@ export default function Services() {
             return (
               <div className="bg-white rounded-[10px] p-7 mx-auto    mt-7   md:pb-[60px] md:pt-[60px] lg:p-8 lg:flex  2xl:ml-[22px]  md:w-full ">
                 <div className="p-3    lg:w-28 ">
-                  <img src={items.image} className="w-12 md:w-[73px]      " />
+                  <img
+                    src={items.image}
+                    alt={items.alt}
+                    className="w-12 md:w-[73px]      "
+                  />
                 </div>
                 <div className="lg:w-52 flex-grow ">
                   <div className="font-medium text-[26px] sm:text-[28px] mt-3 mb-3 lg:w-[300px] lg:text-[30px]">

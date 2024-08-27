@@ -12,6 +12,7 @@ export default function HeaderSkillsSection() {
         <div>
           <img
             src="intro-ft-icon1.png"
+            alt="Dedication Icon"
             className="w-10  pb-5 pt-4    xl:w-20 "
           />
         </div>
@@ -30,6 +31,7 @@ export default function HeaderSkillsSection() {
         <div>
           <img
             src="intro-ft-icon2.png"
+            alt=" Smart Work icon"
             className="w-10  pb-5 pt-4     xl:w-20"
           />
         </div>
@@ -46,6 +48,7 @@ export default function HeaderSkillsSection() {
         <div>
           <img
             src="intro-ft-icon3.png"
+            alt="Collaboration icon "
             className="w-10  pb-5 pt-4    xl:w-[55px] "
           />
         </div>
@@ -64,6 +67,7 @@ export default function HeaderSkillsSection() {
         <div>
           <img
             src="intro-ft-icon4.png"
+            alt="Technology icon"
             className="w-10  pb-5 pt-4     xl:w-20"
           />
         </div>

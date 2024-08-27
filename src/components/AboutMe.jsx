@@ -6,7 +6,11 @@ export default function AboutMe() {
       <div className="bg-[#EEF4FA]   lg:h-[890px] lg:flex font-sans pb-[2px]   pt-16 container mx-auto  ">
         <div className="p-10 relative mx-auto flex justify-center lg:ml-8 container ">
           <div className="w-24 h-24 border-[#80DB66] border-4 absolute top-4 right-4 z-[0] md:right-28 lg:right-0 2xl:right-12 "></div>
-          <img src="about-img.jpg  " className="relative z-10" />
+          <img
+            src="about-img.jpg"
+            alt="person Image"
+            className="relative z-10"
+          />
           <div className="w-16 h-[76px] bg-[#80DB66] absolute top-28  left-0  sm:left-10  md:left-[105px] lg:left-0  z-20 2xl:left-12"></div>
           <div className="w-12 h-16 bg-[#80DB66] absolute  bottom-[4px] left-[235px] z-20 sm:left-[430px] md:left-[490px] lg:left-[350px]  2xl:left-[530px]   lg:bottom-[7px]  xl:bottom-[0px] 2xl:bottom-[9px] "></div>
         </div>
@@ -61,7 +65,7 @@ export default function AboutMe() {
 
           <div className="sm:flex sm:justify-around  ">
             <div className="pl-4">
-              <img src="signature.png" />
+              <img src="signature.png" alt="signature Icon" />
             </div>
             <div className="pl-4 pt-8 xl:pt-0 xl:flex xl:justify-center xl:items-center xl:space-x-3">
               <div className="text-xl xl:text-3xl"> Bruce Wayne </div>

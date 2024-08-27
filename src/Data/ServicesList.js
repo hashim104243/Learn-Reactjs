@@ -5,6 +5,7 @@ export const ServicesList = [
     image: "ser-icon1.png",
     content:
       "Ludantium totam rem aperia meaququae ab tatis et quasi architecto beatae vit dunt ut labore et dolore magna aliqua.",
+    alt: "icon",
   },
 
   {
@@ -13,6 +14,7 @@ export const ServicesList = [
     image: "ser-icon2.png",
     content:
       "Ludantium totam rem aperia meaququae ab tatis et quasi architecto beatae vit dunt ut labore et dolore magna aliqua.",
+    alt: "icon",
   },
   {
     id: 2,
@@ -20,6 +22,7 @@ export const ServicesList = [
     image: "ser-icon3.png",
     content:
       "Ludantium totam rem aperia meaququae ab tatis et quasi architecto beatae vit dunt ut labore et dolore magna aliqua.",
+    alt: "icon",
   },
   {
     id: 3,
@@ -27,5 +30,6 @@ export const ServicesList = [
     image: "ser-icon4.png",
     content:
       "Ludantium totam rem aperia meaququae ab tatis et quasi architecto beatae vit dunt ut labore et dolore magna aliqua.",
+    alt: "icon",
   },
 ];

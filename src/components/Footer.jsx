@@ -15,7 +15,7 @@ export default function Footer() {
       >
         <div className="sm:order-1 lg:mt-4  ">
           <div className="">
-            <img className="p-4" src="logo-dark. footer.png" />
+            <img className="p-4" alt="logo Icon" src="logo-dark. footer.png" />
             <p className="p-5 text-[18px] sm:text-[18px] ">
               All rights reserved <span className="font-bold">Codeefly</span> ©
               2024

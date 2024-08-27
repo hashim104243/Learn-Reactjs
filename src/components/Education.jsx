@@ -82,7 +82,7 @@ export default function Education() {
       </div>
 
       <div className="education-right mt-10 md:flex md:justify-center ">
-        <img src="education-img.jpg" />
+        <img src="education-img.jpg" alt="education Image" />
       </div>
     </div>
   );

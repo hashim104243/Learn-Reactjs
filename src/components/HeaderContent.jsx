@@ -35,7 +35,11 @@ export default function HeaderContent() {
         </div>
       </div>
       <div className="  mt-16  h-[323px] w-96 lg:w-[26rem] lg:h-[535px] lg:mt-0 lg:mr-20   flex justify-center items-center xl:mr-[200px]    2xl:mr-[60px]    ">
-        <img className="lg:w-full lg:h-[100%]  h-[300px]" src="person.png   " />
+        <img
+          className="lg:w-full lg:h-[100%]  h-[300px]"
+          alt="person Image"
+          src="person.png   "
+        />
       </div>
       <div className="hidden  md:block absolute   text-white w-16  space-y-3 md:top-[60px] md:right-[90px] lg:right-[30px] 2xl:right-[160px] container xl:right-[90px]  ">
         <div className="text-xl border border-white flex justify-center items-center p-3 rounded hover:bg-[#80DB66] hover:text-white  cursor-pointer">
