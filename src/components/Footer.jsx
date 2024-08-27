@@ -7,7 +7,7 @@ import { MdOutlineEmail } from "react-icons/md";
 import { FaInstagram } from "react-icons/fa";
 export default function Footer() {
   return (
-    <section className="bg-[#DEF5EF]">
+    <footer className="bg-[#DEF5EF]">
       <div
         className="bg-[#DEF5EF] sm:flex      sm:flex-wrap sm:space-x-0 sm:p-7   lg:justify-between lg:items-center   md:justify-center font-sanbs pb-8 container mx-auto  sm:pl-[60px] lg:pl-[35px] lg:pr-[40px] xl:pl-[50px] xl:pr-[90px] 
       2xl:pl-[100px] 2xl:pr-[170px] 
@@ -55,6 +55,6 @@ export default function Footer() {
           </div>
         </div>
       </div>
-    </section>
+    </footer>
   );
 }
