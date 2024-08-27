@@ -31,6 +31,6 @@ export default function App() {
 // As for your code there is still room for improvement:
 // 1. You did not use alt tag with images done
 // 2. Data related files should not end with jsx rather with js. Also they should be places in a different folder e.g src --> data Done
-// 3. You have not used sematic tags
+// 3. You have not used sematic tags done
 // 4. There is still a lot of repeated code that you need to refactor like I had said in the meeting.
 // 5. You have not created a shared layout (like we discussed in the meeting)
